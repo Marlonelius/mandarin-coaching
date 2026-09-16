@@ -5,3 +5,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{header,.actions,footer,.skip{display:none}.hero{padding:20px}.section{break-inside:avoid;padding:25px 0}body{background:white}}
 
 header{justify-content:flex-end}@media(max-width:760px){nav{max-width:none}header{display:flex}nav{margin-top:0}}
+
+.portrait{margin:0 0 36px;width:min(100%,310px);border-radius:2px;overflow:hidden}.portrait img{display:block;width:100%;height:auto}.contact h2{margin-bottom:0}
+@media(max-width:760px){.portrait{width:min(100%,310px);margin:0 0 32px}}
